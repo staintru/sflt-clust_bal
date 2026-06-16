@@ -40,6 +40,13 @@
 - Установите и настройте HAProxy, воспользуйтесь материалами к лекции по [ссылке](2/)
 - Настройте балансировку Round-robin на 4 уровне.
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/python8_9.png)
+
+Ссылка на конфиг HAProxy https://github.com/staintru/sflt-clust_bal/blob/main/haproxy.cfg
+
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/haproxy2.png)
+
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/stats.png)
 
 
 ### Задание 2
@@ -47,6 +54,15 @@
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/python8_9_3.png)
+
+Ссылка конфиг HAProxy https://github.com/staintru/sflt-clust_bal/blob/main/haproxy2.cfg
+
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/haproxy3.png)
+
+![image](https://github.com/staintru/sflt-clust_bal/blob/main/stats2.png)
+
 
 ---
 <details>
